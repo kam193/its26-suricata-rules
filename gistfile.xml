@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset documentation_url="https://github.com/daffainfo/suricata-rules/tree/main/http/web-attacks">
+    <location url="https://raw.githubusercontent.com/daffainfo/suricata-rules/refs/heads/main/http/web-attacks/" prefix="WAF"/>
+    <files>
+        <file description="Merged WAF rules" url="https://raw.githubusercontent.com/kam193/its26-suricata-rules/refs/heads/main/rules/merged.rules">merged.rules</file>
+        <file description="Custom WAF rules" url="https://raw.githubusercontent.com/kam193/its26-suricata-rules/refs/heads/main/rules/custom.rules">custom.rules</file>
+    </files>
+</ruleset>
