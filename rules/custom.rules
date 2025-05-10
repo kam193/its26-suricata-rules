@@ -1,1 +1,1 @@
-drop http any any -> any any (msg:"Suspicious file access: .php.bak file requested"; content:".php.bak"; nocase; http_uri; gid:10; sid:1000001; rev:1;)
+drop http any any -> any any (msg:"Suspicious file access: .php.bak file requested"; content:".php.bak"; nocase; http_uri; sid:1000001; rev:1;)
